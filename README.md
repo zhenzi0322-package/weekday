@@ -2,7 +2,7 @@
   <h1>weekday</h1>
   <a href="https://pypi.org/project/weekday/"><img src="https://img.shields.io/pypi/v/weekday.svg" alt="PyPI version"></a>
   <a href="https://pypi.org/project/weekday/"><img src="https://img.shields.io/badge/Python-3.8~3.14-3776AB?logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://github.com/zhenzi0322/weekday/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/weekday.svg" alt="License"></a>
+  <a href="https://github.com/zhenzi0322-package/weekday/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/weekday.svg" alt="License"></a>
           <a href="https://tool.long920.cn/weekday"><img src="https://app.readthedocs.org/projects/zhenzi0322-tool/badge/?version=latest" alt="Documentation Status"></a>
 </p>
 
