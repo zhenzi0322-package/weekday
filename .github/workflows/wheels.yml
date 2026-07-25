@@ -44,19 +44,10 @@ jobs:
           sudo apt install -y build-essential python3-dev
 
       # Windows VC编译工具
-      # - name: Install Windows VC++ build tools
-      #   if: runner.os == 'Windows'
-      #   uses: ilammy/msvc-dev-cmd@v1
-      
       - name: Install Windows VC++ build tools
         if: runner.os == 'Windows'
-        shell: cmd
-        run: |
-          call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
-          echo INCLUDE=%INCLUDE% >> %GITHUB_ENV%
-          echo LIB=%LIB% >> %GITHUB_ENV%
-          echo LIBPATH=%LIBPATH% >> %GITHUB_ENV%
-          echo PATH=%PATH% >> %GITHUB_ENV%
+        uses: ilammy/msvc-dev-cmd@v1
+      
 
       # Python依赖
       - name: Install build dependencies
