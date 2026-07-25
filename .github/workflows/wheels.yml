@@ -52,9 +52,10 @@ jobs:
         if: runner.os == 'Windows'
         shell: cmd
         run: |
-          call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+          call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
           echo INCLUDE=%INCLUDE% >> %GITHUB_ENV%
           echo LIB=%LIB% >> %GITHUB_ENV%
+          echo LIBPATH=%LIBPATH% >> %GITHUB_ENV%
           echo PATH=%PATH% >> %GITHUB_ENV%
 
       # Python依赖
