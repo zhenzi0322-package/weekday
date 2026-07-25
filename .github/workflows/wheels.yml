@@ -46,7 +46,7 @@ jobs:
       # Windows VC编译工具
       - name: Install Windows VC++ build tools
         if: runner.os == 'Windows'
-        uses: ilammy/msvc-dev-cmd@v1
+        uses: ilammy/msvc-dev-cmd@v2
 
       # Python依赖
       - name: Install build dependencies
